@@ -1,0 +1,171 @@
+@import "settings";
+@import "foundation";
+@import "foundation/components/icon-bar";
+//@import "foundation-icons.css";
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+.small-icons {
+     icon-size: 0.5em;   
+}
+
+
+
+.image {
+    background-image: url("/img/me.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: left;
+    width: 100% !important;
+    height: 75%;
+    z-index: 0;
+    margin-top: -5px;
+    
+}
+.mobile-image {
+    background-image: url("/img/me-mobile.jpg") !important;
+    background-position: center !important;
+}
+.tall {
+    margin-bottom: 10em;
+    margin-top: 10em;
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2, h3, h4 {
+    color: #F82F47;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+  background-color: #24C0A6;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.white {
+    color: white;
+}
+.white-bkgd {
+    background-color: white;
+}
+.wide {
+    width: 100% !important;
+}
+.gray {
+    background-color: #333;
+}
+
+$topbar-height: rem-calc(85);
+
+.transparent {
+    background-color: rgba(0,0,0,.75);
+}
+
+.big-icon {
+      font-size: 1.5em;
+    }
+.top-bar-section ul li a {
+    max-height: 3.4375rem;
+}
+.has-tip {
+  border: 0;
+}
+
+.top-bar {
+  box-shadow: rgba(0,0,0,0.258824) 0px 2px 5px;
+}
+
+.mobile-bar {
+  box-shadow: rgba(0,0,0,0.258824) 0px 2px 5px;
+  height: 5.313em;
+}
+
+.icon-bar {
+  box-shadow: rgba(0,0,0,0.258824) 0px 2px 5px;
+  background-color: #333;
+  color: #108D93;
+  $primary-color: #108D93;
+}
+
+.icon-bar i {
+  font-size: 1.5em;
+}
+
+#blackOverlay {
+background-color:#000;opacity:1.0;width:100%;
+}
+
+// large screens
+
+@media only screen and (min-width: 40em) {
+  .top-bar {
+    text-align: center;
+  }
+  ul.center-buttons {
+    display: inline-block;
+  }
+  .logo {
+    left: 5px;
+    top: -2px;
+    position: absolute;
+  }
+}
+
+
+
+// some mobile resets
+.logo {
+  max-width: 2rem;
+  margin-top: -3px;
+  margin-left: 5px;
+}
+.menu-icon {
+  padding-top: 1.2rem;
+}
+.top-bar.expanded {
+  background: #333333;
+}

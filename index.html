@@ -1,0 +1,150 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jonathan Buchanan</title>
+    <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway:200' rel='stylesheet' type='text/css'>
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- smooth scrolling buttons-->
+    <script>
+    $(function() {
+      $('a[href*=#]:not([href=#])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+    <script>
+$(function () {
+    $(window).scroll(function () {
+        var currentScrollTop = $(window).scrollTop();
+        $('#blackOverlay').css('opacity',1-(currentScrollTop/$('#blackOverlay').height()));
+
+    });
+});
+</script>
+
+  </head>
+  <body>
+<!--  small screen top bar  -->
+<div class="icon-bar four-up fixed show-for-small-down" role="navigation">
+  <a href="#home" class="item" role="button" tabindex="0" aria-label="home">
+    <i class="fi-home"></i>
+  </a>
+  <a href="#info" class="item" role="button" tabindex="0" aria-label="Bookmark">
+    <i class="fi-info"></i>
+  </a>
+  <a href="#" class="item" role="button" tabindex="0" aria-label="Blog">
+    <i class="fi-clipboard-pencil"></i>
+  </a>
+  <a href="#contact" class="item" role="button" tabindex="0" aria-label="Mail">
+    <i class="fi-mail"></i>
+  </a>
+</div>
+
+
+<!--  large screen top bar-->
+<div class="fixed">
+<nav class="top-bar show-for-medium-up" data-topbar>
+  <ul class="title-area">
+   <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar"><a href="#"><span><i class="fi-list big-icon"></i></span></a></li>
+  </ul>
+  <div class="logo">
+    <a href="http://zurb.com/stickers/images/intro-foundation.png"><img src="http://zurb.com/stickers/images/intro-foundation.png" /></a>
+  </div>
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="center-buttons">
+      <!--li class="divider"></li-->
+      <li data-tooltip aria-haspopup="true" class="has-tip" title="Home"><a href="#home"><i class="fi-home big-icon"></i></a></li>
+      <!--li class="divider"></li-->
+      <li data-tooltip aria-haspopup="true" class="has-tip" title="Résumé"><a href="#info"><i class="fi-info big-icon"></i></a></li>
+      <!--li class="divider"></li-->
+      <li data-tooltip aria-haspopup="true" class="has-tip" title="Blag"><a href="#"><i class="fi-clipboard-pencil big-icon"></i></a></li>
+
+      <li data-tooltip aria-haspopup="true" class="has-tip" title="Contact"><a href="#contact"><i class="fi-mail big-icon"></i></a></li>
+      <!--li class="divider"></li-->
+    </ul>
+  </section>
+</nav>
+</div>
+<h id="home"></h>
+<div class="wide image show-for-medium-up" id="blackOverlay">
+        <h1>Jonathan Buchanan</h1>
+</div>
+<div class="wide image mobile-image show-for-small">
+</div>
+
+
+<div class="gray wide">
+    <div class="row">
+      <div class="large-12 columns">
+        <h1>Future Site of Jonathan Buchanan</h1>
+      </div>
+    </div>
+
+    <div class="row gray wide">
+        <div class="large-6 medium-6 small-12 columns">
+            <!--i class="fi-bookmark"></i-->
+            <p class="white">oheusntho aeunthonteuh naotehuntaoh untaoheuntho enuthaonteuh anoteuhtnaoheu sntaoheunsta housntah oeuntha oentu haontuhao stenuhao tneuh natoeuh snaote uhanote uhsntaoheu sntaohe usnaote uhato ehutnao heunsthao nuteh asnteouhsntao ehusnthaoenuth aosnetuh snotaeh unaotheu snaoheu tnoah euntaoh eusnt haoentuh aosneuh anoteuh sntoaehu nsotaehu ntaoehu ntaoehu ntaoehun stoae uhntaoehu sntoae hunstaoe uhnthaoeu snthaoesnut hasnoetuh aontuh asnoteuh saontehuo </p>
+        </div>
+        <div class="large-6 medium-6 small-12 columns">
+            <p class="white">testing testing 1 2 3 ntaheous ntahoesu thaosnteu hanotehusn otaehusnt oeahutn haoenus thaoesu nhaoesntuh aosnehusna otehuso eunstha oesu nhaonteuh sanoehu sntoae husntaoh eusntha oensuth aosunth aosenu :Doahesunt haoe snuthao sneuthao ntehusnt oaheunst haonteuha otnehu sntaht.</p>
+        </div>
+    </div>
+</div>
+<div class="white-bkgd wide">
+    <div id="info" class="row">
+        <div class="large-12 columns">
+            <h4>Next Content</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="small-12 columns">
+            <p>Some nice soothing filler content.  you'll notice this is different because it's not just random keyboard mashing.  interesting.  I don't know if I'll actually even have this much real content to put here.  It'll look a little dumb if I don't, but not as dumb as if I leave this text.</p>
+
+            </object>
+            <a href="#" data-reveal-id="showResume"  class="button radius">Show Resume</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="white-bkgd wide">
+    <div id="contact" class="row">
+        <div class="large-12 columns">
+        <h4>Contact</h4>
+        <p>email: </p>
+        <a href="mailto:johnyburd@johnyburd.com">johnyburd@johnyburd.com</a>
+        </div>
+    </div>
+    </div>
+</div>
+
+
+<div class="reveal-modal-bg" style="display: none"></div>
+<div id="showResume" class="reveal-modal" data-reveal aria-labelledby="modalTitle" aria-hidden="true" role="dialog">
+  <h2 id="modalTitle">Resume</h2>
+            <object data="resume.pdf" type="application/pdf" width="100%" height="800px"> 
+              <p>It appears you don't have a PDF plugin for this browser.
+                 No biggie... you can <a href="resume.pdf">click here to
+                   download the PDF file.</a></p>  
+  <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+</div>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/foundation/js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
