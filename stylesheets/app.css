@@ -9602,7 +9602,7 @@ th.hide-for-touch {
 .mobile-image {
   background-image: url("/img/me-mobile.jpg") !important;
   background-position: center !important;
-  height: 50% !important;
+  height: 60% !important;
 }
 
 /* line 66, ../scss/app.scss */
