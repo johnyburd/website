@@ -9602,101 +9602,102 @@ th.hide-for-touch {
 .mobile-image {
   background-image: url("/img/me-mobile.jpg") !important;
   background-position: center !important;
+  height: 50% !important;
 }
 
-/* line 65, ../scss/app.scss */
+/* line 66, ../scss/app.scss */
 .tall {
   margin-bottom: 10em;
   margin-top: 10em;
 }
 
-/* line 70, ../scss/app.scss */
+/* line 71, ../scss/app.scss */
 body {
   background-color: black;
 }
 
-/* line 74, ../scss/app.scss */
+/* line 75, ../scss/app.scss */
 h1, h2, h3, h4 {
   color: #F82F47;
   font-family: 'Raleway', sans-serif;
 }
 
-/* line 79, ../scss/app.scss */
+/* line 80, ../scss/app.scss */
 p {
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 83, ../scss/app.scss */
+/* line 84, ../scss/app.scss */
 .button {
   background-color: #24C0A6;
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
 
-/* line 89, ../scss/app.scss */
+/* line 90, ../scss/app.scss */
 .white {
   color: white;
 }
 
-/* line 92, ../scss/app.scss */
+/* line 93, ../scss/app.scss */
 .white-bkgd {
   background-color: white;
 }
 
-/* line 95, ../scss/app.scss */
+/* line 96, ../scss/app.scss */
 .wide {
   width: 100% !important;
 }
 
-/* line 98, ../scss/app.scss */
+/* line 99, ../scss/app.scss */
 .gray {
   background-color: #333;
 }
 
-/* line 104, ../scss/app.scss */
+/* line 105, ../scss/app.scss */
 .transparent {
   background-color: rgba(0, 0, 0, 0.75);
 }
 
-/* line 108, ../scss/app.scss */
+/* line 109, ../scss/app.scss */
 .big-icon {
   font-size: 1.5em;
 }
 
-/* line 111, ../scss/app.scss */
+/* line 112, ../scss/app.scss */
 .top-bar-section ul li a {
   max-height: 3.4375rem;
 }
 
-/* line 114, ../scss/app.scss */
+/* line 115, ../scss/app.scss */
 .has-tip {
   border: 0;
 }
 
-/* line 118, ../scss/app.scss */
+/* line 119, ../scss/app.scss */
 .top-bar {
   box-shadow: rgba(0, 0, 0, 0.25882) 0px 2px 5px;
 }
 
-/* line 122, ../scss/app.scss */
+/* line 123, ../scss/app.scss */
 .mobile-bar {
   box-shadow: rgba(0, 0, 0, 0.25882) 0px 2px 5px;
   height: 5.313em;
 }
 
-/* line 127, ../scss/app.scss */
+/* line 128, ../scss/app.scss */
 .icon-bar {
   box-shadow: rgba(0, 0, 0, 0.25882) 0px 2px 5px;
   background-color: #333;
   color: #108D93;
 }
 
-/* line 134, ../scss/app.scss */
+/* line 135, ../scss/app.scss */
 .icon-bar i {
   font-size: 1.5em;
 }
 
-/* line 138, ../scss/app.scss */
+/* line 139, ../scss/app.scss */
 #blackOverlay {
   background-color: #000;
   opacity: 1.0;
@@ -9704,36 +9705,36 @@ p {
 }
 
 @media only screen and (min-width: 40em) {
-  /* line 145, ../scss/app.scss */
+  /* line 146, ../scss/app.scss */
   .top-bar {
     text-align: center;
   }
 
-  /* line 148, ../scss/app.scss */
+  /* line 149, ../scss/app.scss */
   ul.center-buttons {
     display: inline-block;
   }
 
-  /* line 151, ../scss/app.scss */
+  /* line 152, ../scss/app.scss */
   .logo {
     left: 5px;
     top: -2px;
     position: absolute;
   }
 }
-/* line 161, ../scss/app.scss */
+/* line 162, ../scss/app.scss */
 .logo {
   max-width: 2rem;
   margin-top: -3px;
   margin-left: 5px;
 }
 
-/* line 166, ../scss/app.scss */
+/* line 167, ../scss/app.scss */
 .menu-icon {
   padding-top: 1.2rem;
 }
 
-/* line 169, ../scss/app.scss */
+/* line 170, ../scss/app.scss */
 .top-bar.expanded {
   background: #333333;
 }
