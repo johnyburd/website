@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jonathan Buchanan</title>
+    <title>Blag of Jonathan Buchanan</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
     <link rel="stylesheet" href="fonts/foundation-icons/foundation-icons.css"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway:200' rel='stylesheet' type='text/css'>
@@ -81,6 +81,7 @@
     <div class="large-12 columns panel">
         <h1>The Blog of the Jonathan</h1>
         <p>Born in Kingsport, TN in 1999, Jonathan prides himself in never having gone to the same school for two years until 8th grade; though he is now in his third year at Dobyns Bennett High School.  He regularly attends First Christian Church in Johnson City, and some of Jonathan's interests include coding, gaming, and backpacking.  Jonathan was also recently diagnosed with type 1 diabetes, which has added a lot of complexity to his life.</p>
+        <p class="blu">This page is a work in progress</p>
     </div>
 </div>
 
